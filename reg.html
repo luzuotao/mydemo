@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		
+	</head>
+	<body>
+		<div class="reg">
+			<div class="headerColor"></div>
+			<form action="#" method="post" id="register">
+			<fieldset>
+				<legend>账户详细资料</legend>
+				<div>
+					<label for="username">用户名称</label>
+					<input type="text" id="username" name="username" placeholder="数字、字母、下划线，长度8-20之间"/>
+				</div>
+				<div>
+					<label for="password">登录密码</label>
+					<input type="password" id="password" name="password" placeholder="长度在6-20位之间"/>
+				</div>
+				<div>
+					<label for="comPass">重复密码</label>
+					<input type="password" id="compass" name="compass"/>
+				</div>
+				<div class="setInline security">
+					<label>安全级别</label>
+					<div class="low">低</div>
+					<div class="mid">中</div>
+					<div class="hei">高</div>
+				</div>
+			</fieldset>
+			<fieldset id="">
+				<legend>个人详细资料</legend>
+				<div>
+					<label for="email">电子邮件</label>
+					<input type="text" id="email" name="email"/>
+				</div>
+				<div>
+					<label for="reallyName">真实姓名</label>
+					<input type="text" id="reallyName" name="reallyName" placeholder="2-4个中文名"/>
+				</div>
+				<div>
+					<label for="phone">中奖手机</label>
+					<input type="text" id="phone" name="phone" placeholder="本人手机号码"/>
+				</div>
+				<div class="setInline">
+					<div>
+						<label for="code">验证码</label>
+						<input type="text" id="code" name="code"/>
+						<div id="codestr"></div>
+					</div>
+				</div>
+				
+			</fieldset>
+			<div class="reg_btn">
+				<button type="submit" id="btn">注册</button>
+				<input type="checkbox" />十天内免登陆
+			</div>
+			</form>
+		</div>
+		<script type="text/javascript" src="js/reg.js"></script>
+	</body>
+</html>
