@@ -2,7 +2,7 @@
 var check = {
 	'username':{
 		preg:/^[\w]{8,20}$/i,
-		empty:'用户名不能为空',
+		empty:'用户名不能为空11',
 		error:'用户名长度不适',
 	},
 	'password':{
